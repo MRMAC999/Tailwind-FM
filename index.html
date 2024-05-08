@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="h-screen flex justify-center items-center">
+    <div class="h-96 w-72 rounded-3xl bg-indigo-700 grid justify-items-center flex flex-col justify-evenly">
+        <div class="text-gray-300 text-2xl"><h1>Your Result</h1></div>
+        <div class="h-28 w-28 rounded-full bg-indigo-800 opacity-75 flex justify-center items-center flex-col">
+            <h1 class="text-white text-6xl ">76</h1>
+            <h5 class="text-gray-300 ">of 100</h5>
+        </div>
+        <div class="grid justify-items-center flex-col">
+            <article class="text-wrap grid justify-items-center  flex justify-center  flex-col">
+                <h3 class="text-white text-4xl ">GREAT!</h3>
+                <p class="text-gray-300 p-5">You scoreed higher than 65% of the people who have taken these tests.</p>
+              </article>
+        </div>
+    </div>
+    <div class="h-96 w-72 rounded-3xl bg-stone-50 grid justify-items-center flex flex-col justify-evenly shadow-xl">
+        <div class="text-lg ">summary</div>
+        <div class="flex gap-5 flex-col ">
+            <div class="h-9 w-56 bg-pink-100 flex justify-between items-center border-none rounded-lg p-1"> 
+                <p><i class="fa fa-bolt"></i> Reaction</p>
+                <p>80 / 100</p>
+            </div>
+            <div class="h-9 w-56 bg-yellow-100 flex justify-between items-center border-none rounded-lg p-1">
+                <p><i class="fa- fa-database"></i> Memory</p>
+                <p>92 / 100</p>
+           </div>
+            <div class="h-9 w-56 bg-green-100 flex justify-between items-center border-none rounded-lg p-1">
+                <p><i class="fa fa-comment"></i> Verbal</p>
+                <p>61 / 100</p>
+            </div>
+            <div class="h-9 w-56 bg-indigo-100 flex justify-between items-center border-none rounded-lg p-1">
+                <p><i class="fa fa-eye"></i> Visual</p>
+                <p>72 / 100</p>
+            </div>    
+        </div>
+        <div>
+            <button class="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Continue</button>
+        </div>
+    </div>
+    </div>  
+</body>
+</html>
